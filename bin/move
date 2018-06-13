@@ -10,6 +10,9 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 # Welcome the player
 puts "Welcome to Tic Tac Toe!"
 
+# display the board!
+
+
 # Ask the user where they would like to go
 puts "Where would you like to go?"
 
