@@ -10,7 +10,12 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 # Welcome the player
 puts "Welcome to Tic Tac Toe!"
 
+# Ask the user where they would like to go
 puts "Where would you like to go?"
+
+# then grab and strip it
 input = gets.strip
 
+# convert it to a valid integer
 input = input_to_index(input)
+
