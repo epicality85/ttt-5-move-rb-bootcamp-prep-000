@@ -19,4 +19,5 @@ input = gets.strip
 # convert it to a valid integer
 input = input_to_index(input)
 
+# perform the move
 move(board, input)
