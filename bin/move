@@ -24,3 +24,6 @@ input = input_to_index(input)
 
 # perform the move
 move(board, input)
+
+# display the board again
+display_board(board);
